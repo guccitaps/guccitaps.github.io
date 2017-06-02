@@ -1,0 +1,243 @@
+@font-face 
+{
+	font-family: Bungee;
+	src: url('Bungee Hairline.ttf');
+}
+
+@font-face 
+{
+	font-family: Pixel;
+	src: url('Pixel.TTF');
+}
+
+@font-face
+{
+  font-family: Parafont;
+  src: url('Pixel7.ttf');
+}
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+background-image:url(Images/fond.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+height: 100%; width: 100%; margin: 0px; padding: 0px;
+}
+
+html
+{
+height: 100%; width: 100%; margin: 0px; padding: 0px;
+}
+
+
+.topnav
+{
+    width: 68%;
+    margin-left: 16%;
+    margin-right: 16%;
+    position: fixed;
+    z-index: 1;
+}
+
+.topnav ul {
+    background-color: #333;
+    list-style: none;
+    margin:0;
+    padding:0;
+    display: table;
+    width: 100%;
+    
+}
+
+.topnav a 
+{
+  font-family: Pixel;
+  font-size: 25px;
+  
+  display:inline-block;
+  color: #f2f2f2;
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+  height: 100%;
+  line-height: 20px;
+  display: block;
+  text-align: center;
+  
+  text-decoration: none;
+
+}
+
+.topnav li {
+  list-style-type: none;
+  text-align: center;
+  display: table-cell;
+  height: 100%;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  transition: linear all 0.40s;
+  color: black;
+}
+
+#logoimg
+{
+    display: block;
+    position: relative;
+    width: 60%;
+    height: 5%px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#main 
+{
+	border-radius: 10px;
+	background:rgba(241, 241, 241, 0.9);
+    
+	margin-left: 18%;
+	margin-right: 18%;
+    margin-bottom: 5%;
+    
+	padding-left: 2%;
+    padding-right: 2%;
+	padding-bottom: 2%;
+	
+    
+    box-shadow: 0px 0px 10px #222;
+
+  font-family: Arial;
+}
+
+#titre
+{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.photo
+{
+  float: left;
+}
+
+p
+{
+    text-align: justify;
+    margin: 50px;
+    color: #383838;
+    font-family: Parafont;
+    font-size: 20px;
+}
+h2
+{
+	font-family: Pixel;
+	font-size: 50px;
+    font-weight: bold;
+	color: #636363;
+	text-align: center;
+  margin-bottom: 40px;
+}
+
+h3
+{
+  font-size: 35px;
+  font-family: Parafont;
+  color: #444444;
+  text-align: center;
+}
+
+h4
+{
+  font-size: 20px;
+  font-family: Parafont;
+  color: #303030;
+}
+
+h5
+{
+  font-family: Parafont;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+}
+
+#video
+{
+  display:flex;
+  justify-content: center;
+}
+
+#trailer
+{
+  text-align: center;
+}
+#presentation
+{
+  text-align: center;
+  font-size: 20px;
+}
+
+#telecharge
+{
+  display: block;
+  border-radius: 10px;
+  background-color: #8bc940;
+  width: 200px;
+  padding: 10px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+#telecharge:hover
+{
+  border-radius: 10px;
+  background-color: #52702f;
+}
+
+#endimg
+{
+    display: block;
+    position: relative;
+    width: 62%;
+    height: 5%px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#screens
+{
+  text-align: center;
+}
+
+#listes
+{
+  font-family: Parafont;
+  text-align: justify;
+  color: #383838;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+#dev
+{
+  margin: 0px;
+}
