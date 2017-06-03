@@ -178,6 +178,14 @@ h5
   font-size: 25px;
 }
 
+h6
+{
+  font-family: Parafont;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+
 #video
 {
   display:flex;
@@ -240,4 +248,11 @@ h5
 #dev
 {
   margin: 0px;
+}
+
+#contact
+{
+  text-align: center;
+  margin: 5px;
+  font-size: 18px;
 }
